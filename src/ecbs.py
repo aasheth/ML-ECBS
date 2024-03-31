@@ -192,6 +192,7 @@ class ECBSSolver(object):
         solns=0
         list_of_solns = []
         list_of_curr = []
+
         
         while self.focal_list: #focal_list instead of open_list
             curr = self.pop_node_focal() # pop node from focal_list
